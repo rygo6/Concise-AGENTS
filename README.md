@@ -51,7 +51,7 @@ Credit: adapted from [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)
 Install once into the shared agent skills directory, then symlink it into each agent's skills folder.
 
 ```bash
-git clone git@github.com:rygo6/ADHD-AGENTS.git ~/.agents/skills/concise
+git clone git@github.com:rygo6/Concise-AGENTS.git ~/.agents/skills/concise
 ```
 
 Then link it into the agents you use:
