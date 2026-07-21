@@ -1,8 +1,10 @@
 # Concise
 
-An agent skill that shapes output for a reader with ADHD — leading with concrete next actions, numbering multi-step work, restating state across turns, suppressing tangents, giving specific time estimates, and making wins visible. It is agent-agnostic and works with any coding agent that supports skills (Claude Code, Codex, etc.).
+An agent skill that shapes output for fast, low-friction reading — leading with concrete next actions, numbering multi-step work, restating state across turns, suppressing tangents, giving specific time estimates, and making wins visible. It is agent-agnostic and works with any coding agent that supports skills (Claude Code, Codex, etc.).
 
 Unlike a reference skill, it vendors no repositories — the behavior lives entirely in `SKILL.md`.
+
+Credit: adapted from [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd).
 
 ## What changes
 
@@ -70,5 +72,3 @@ mklink /J "%USERPROFILE%\.codex\skills\concise"  "%USERPROFILE%\.agents\skills\c
 ## Usage
 
 Once installed, invoke `/concise` from any agent that supports skills.
-
-Credit: adapted from [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd).
