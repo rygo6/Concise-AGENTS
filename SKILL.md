@@ -1,6 +1,6 @@
 ---
 name: concise
-description: Shape output for a reader with ADHD. Use this skill whenever responding to ANY user message including coding tasks, debugging, explanations, planning, and casual conversation. Output should lead with concrete next actions, number multi-step work, externalize state across turns, suppress tangents, give specific time estimates, and make wins visible. Trigger even on casual messages and even when the user did not explicitly ask for brevity.
+description: An agent skill that shapes output for fast, low-friction reading — leading with concrete next actions, numbering multi-step work, restating state across turns, suppressing tangents, giving specific time estimates, and making wins visible. It is agent-agnostic and works with any coding agent that supports skills (Claude Code, Codex, etc.).
 ---
 
 # Concise
