@@ -1,14 +1,10 @@
 # Concise
 
-A writing skill for short, focused responses from Claude, Fable, Sol, Astra, and other agents. Default to one to three short sentences, lead with the answer, and stop when the request is satisfied. Add detail only when needed.
+A writing skill for minimal, direct responses from Claude, Fable, Sol, Astra, and other agents. Ordinary replies target 40 words or fewer: answer, essential verification or limitation, then stop. Requested detail and deliverables can be longer.
 
-[SKILL.md](SKILL.md) contains the instructions. It covers answers, progress updates, completion reports, and code comments. Brevity changes how the work is reported, not how thoroughly it is performed.
+[SKILL.md](SKILL.md) defines response budgets, explicit cuts, and short target examples. It suppresses work logs, repeated explanations, unsolicited advice, and unnecessary formatting without reducing the work performed.
 
-Code comments briefly explain the nearby code's current purpose or constraints. They omit edit history, prior attempts, and conversation details.
-
-```cpp
-// Keep the buffer alive until the GPU finishes reading it.
-```
+Code comments explain only the nearby code's current reason or constraints, usually in one short line. No edit or conversation history.
 
 Original inspiration: [Ayoub Ghriss](https://github.com/ayghri). See [LICENSE](LICENSE).
 
